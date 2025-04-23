@@ -42,3 +42,20 @@ for n in alumn:
     alumn_code = n[0]
     alumn_grade = n[1]
     print("Code: ", alumn_code, ", Grade: ", alumn_grade)
+
+# DICTIONARIES
+couple = [
+    {"name": "Rafael", "damage": 5, "intelligence": 2},
+    {"name": "Isabella", "damage": 1, "intelligence": 5},
+]
+print(couple)
+
+person = {
+    "name": "Rafael",
+    "age": 22,
+    "university": "none",
+    "sex": "male",
+}
+
+print( person['name'] )
+print( person['university'] )
